@@ -19,6 +19,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+  Content-Encoding: gzip
 
 jobs:
   # Single deploy job since we're just deploying
